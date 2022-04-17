@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Notif_Experiment",
+			"Path": "C:\\Users\\99gol\\Documents\\Unreal Projects\\Notif_Experiment\\Source\\Notif_Experiment.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Notif_ExperimentEditor",
+			"Path": "C:\\Users\\99gol\\Documents\\Unreal Projects\\Notif_Experiment\\Source\\Notif_ExperimentEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

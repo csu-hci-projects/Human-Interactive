@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Notif_Experiment.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4248805C-D6A0-43E6-B80F-8DB084801EF1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Notif_Experiment.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Notif_ExperimentEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B2E4639B-161F-45B0-A416-9D436A1F34C4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{1190F1D3-F776-4FC0-BEF9-FA53F6687752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VictoryPlugin27">
+      <UniqueIdentifier>{873D3FF5-BBFB-43EA-92E0-AE51749E9919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VictoryPlugin27\Source">
+      <UniqueIdentifier>{A1C105F8-2B0A-4CE5-8FEC-4C6298F90509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VictoryPlugin27\Source\VictoryBPLibrary">
+      <UniqueIdentifier>{CE5B4D02-4CD7-4A27-9A23-BAC028B50B5C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\VictoryBPLibrary.Build.cs">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private">
+      <UniqueIdentifier>{185D62F0-2F17-4024-A9AC-0C2D2D0EBEDF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private\TKMathFunctionLibrary.cpp">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private\VictoryBPFunctionLibrary.cpp">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private\VictoryBPFunctionLibrary_WinOS.cpp">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private\VictoryBPHTML.cpp">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private\VictoryBPLibrary.cpp">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private\VictoryBPLibraryPrivatePCH.h">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public">
+      <UniqueIdentifier>{BD438885-88B0-4466-9C43-CDF0915D4856}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public\TKMathFunctionLibrary.h">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public\VictoryBPFunctionLibrary.h">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public\VictoryBPHTML.h">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public\VictoryBPLibrary.h">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public\VictoryISM.cpp">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public\VictoryISM.h">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public\VictoryPC.cpp">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public\VictoryPC.h">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public\VictoryTMapComp.cpp">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public\VictoryTMapComp.h">
+      <Filter>Plugins\VictoryPlugin27\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VictoryPlugin27\VictoryBPLibrary.uplugin">
+      <Filter>Plugins\VictoryPlugin27</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin27\Resources">
+      <UniqueIdentifier>{FB8DB8E9-9065-4CEF-B0D1-0794AB9C961D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin27\Resources\Icon128.png">
+      <Filter>Plugins\VictoryPlugin27\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\VictoryPlugin27\Resources\Thumbs.db">
+      <Filter>Plugins\VictoryPlugin27\Resources</Filter>
+    </None>
+    <Filter Include="Source\Notif_Experiment">
+      <UniqueIdentifier>{00DF6CCC-FE1C-413E-A5BA-00A89994A1CD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Notif_Experiment\Notif_Experiment.Build.cs">
+      <Filter>Source\Notif_Experiment</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Notif_Experiment\Notif_Experiment.cpp">
+      <Filter>Source\Notif_Experiment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Notif_Experiment\Notif_Experiment.h">
+      <Filter>Source\Notif_Experiment</Filter>
+    </ClInclude>
+    <Filter Include="Source\Notif_Experiment\Private">
+      <UniqueIdentifier>{E4E30265-FF10-4DF7-964C-DB777787F62D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Notif_Experiment\Private\PrintTextFile.cpp">
+      <Filter>Source\Notif_Experiment\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Notif_Experiment\Public">
+      <UniqueIdentifier>{379E27D5-4F39-4D70-8C44-9A5AAEDB4457}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Notif_Experiment\Public\PrintTextFile.h">
+      <Filter>Source\Notif_Experiment\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

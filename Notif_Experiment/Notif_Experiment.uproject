@@ -3,11 +3,14 @@
 	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": "",
-	"Plugins": [
+	"Modules": [
 		{
-			"Name": "VictoryBPLibrary",
-			"Enabled": true,
-			"MarketplaceURL": "http://www.ue4code.com"
+			"Name": "Notif_Experiment",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	]
 }
