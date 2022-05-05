@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>C90504414D8C90CECBC38AA4D21FB9E6</ExecutionGuid>
+<CrashGUID>_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<ErrorMessage>Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Core/Private/Internationalization/ICUInternationalization.cpp] [Line: 153] 
+ICU data directory was not discovered:
+../../../Notif_Experiment/Content/Internationalization
+../../../Engine/Content/Internationalization
+
+
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>0</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE4-Notif_Experiment</GameName>
+<ExecutableName></ExecutableName>
+<BuildConfiguration></BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.27-CL-18319896-Win64-</Symbols>
+<PlatformName></PlatformName>
+<PlatformNameIni></PlatformNameIni>
+<EngineMode></EngineMode>
+<EngineModeEx></EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.27.2-18319896+++UE4+Release-4.27</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale></AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.27-CL-18319896</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir></BaseDir>
+<RootDir></RootDir>
+<MachineId></MachineId>
+<LoginId></LoginId>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>0</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>0</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor></Misc.CPUVendor>
+<Misc.CPUBrand></Misc.CPUBrand>
+<Misc.PrimaryGPUBrand></Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor></Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>17017102336</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>7776153600</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>5078384640</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>61788160</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>61788160</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>35520512</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>35524608</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>4</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+Notif_Experiment  0x00007ff691ac0000 + 1b117cc         
+Notif_Experiment  0x00007ff691ac0000 + 1b041c1         
+Notif_Experiment  0x00007ff691ac0000 + 1b542e4         
+Notif_Experiment  0x00007ff691ac0000 + 9ac05e          
+Notif_Experiment  0x00007ff691ac0000 + 9c0f8f          
+Notif_Experiment  0x00007ff691ac0000 + 9b58c6          
+Notif_Experiment  0x00007ff691ac0000 + 9b5c6a          
+Notif_Experiment  0x00007ff691ac0000 + 9b806c          
+Notif_Experiment  0x00007ff691ac0000 + 9c98b4          
+Notif_Experiment  0x00007ff691ac0000 + 71effae         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</PCallStack>
+<PCallStackHash>7DDAEB8118B11C5715CBC1A5B7F33D50967F7543</PCallStackHash>
+<Threads><Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f3214d         
+Notif_Experiment  0x00007ff691ac0000 + 71fbfae         
+VCRUNTIME140      0x00007ff9bcb30000 + ef90            
+ntdll             0x00007ff9ccac0000 + a86ef           
+ntdll             0x00007ff9ccac0000 + 35aea           
+ntdll             0x00007ff9ccac0000 + 32db3           
+KERNELBASE        0x00007ff9ca440000 + 4478c           
+Notif_Experiment  0x00007ff691ac0000 + 1f32096         
+Notif_Experiment  0x00007ff691ac0000 + 1f35f68         
+Notif_Experiment  0x00007ff691ac0000 + 1c8cbfd         
+Notif_Experiment  0x00007ff691ac0000 + 1b117cc         
+Notif_Experiment  0x00007ff691ac0000 + 1b041c1         
+Notif_Experiment  0x00007ff691ac0000 + 1b542e4         
+Notif_Experiment  0x00007ff691ac0000 + 9ac05e          
+Notif_Experiment  0x00007ff691ac0000 + 9c0f8f          
+Notif_Experiment  0x00007ff691ac0000 + 9b58c6          
+Notif_Experiment  0x00007ff691ac0000 + 9b5c6a          
+Notif_Experiment  0x00007ff691ac0000 + 9b806c          
+Notif_Experiment  0x00007ff691ac0000 + 9c98b4          
+Notif_Experiment  0x00007ff691ac0000 + 71effae         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>9620</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30012</ThreadID>
+<ThreadName>TaskGraphThreadNP 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15416</ThreadID>
+<ThreadName>TaskGraphThreadNP 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13240</ThreadID>
+<ThreadName>TaskGraphThreadNP 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26588</ThreadID>
+<ThreadName>TaskGraphThreadNP 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31316</ThreadID>
+<ThreadName>TaskGraphThreadNP 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11764</ThreadID>
+<ThreadName>TaskGraphThreadNP 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28780</ThreadID>
+<ThreadName>TaskGraphThreadNP 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19320</ThreadID>
+<ThreadName>TaskGraphThreadNP 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>27296</ThreadID>
+<ThreadName>TaskGraphThreadNP 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29024</ThreadID>
+<ThreadName>TaskGraphThreadNP 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11004</ThreadID>
+<ThreadName>TaskGraphThreadHP 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8116</ThreadID>
+<ThreadName>TaskGraphThreadHP 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>22124</ThreadID>
+<ThreadName>TaskGraphThreadHP 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14060</ThreadID>
+<ThreadName>TaskGraphThreadHP 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26908</ThreadID>
+<ThreadName>TaskGraphThreadHP 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8548</ThreadID>
+<ThreadName>TaskGraphThreadHP 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29356</ThreadID>
+<ThreadName>TaskGraphThreadHP 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9700</ThreadID>
+<ThreadName>TaskGraphThreadHP 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1812</ThreadID>
+<ThreadName>TaskGraphThreadHP 18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4612</ThreadID>
+<ThreadName>TaskGraphThreadHP 19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>25788</ThreadID>
+<ThreadName>TaskGraphThreadBP 20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>500</ThreadID>
+<ThreadName>TaskGraphThreadBP 21</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16688</ThreadID>
+<ThreadName>TaskGraphThreadBP 22</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3248</ThreadID>
+<ThreadName>TaskGraphThreadBP 23</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10796</ThreadID>
+<ThreadName>TaskGraphThreadBP 24</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28596</ThreadID>
+<ThreadName>TaskGraphThreadBP 25</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14484</ThreadID>
+<ThreadName>TaskGraphThreadBP 26</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19708</ThreadID>
+<ThreadName>TaskGraphThreadBP 27</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11504</ThreadID>
+<ThreadName>TaskGraphThreadBP 28</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a31447         
+Notif_Experiment  0x00007ff691ac0000 + 1a32a00         
+Notif_Experiment  0x00007ff691ac0000 + 1a383a5         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14940</ThreadID>
+<ThreadName>TaskGraphThreadBP 29</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1a32212         
+Notif_Experiment  0x00007ff691ac0000 + 1a3296e         
+Notif_Experiment  0x00007ff691ac0000 + 1d5135d         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9972</ThreadID>
+<ThreadName>StatsThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1b23221         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19412</ThreadID>
+<ThreadName>PoolThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1b23221         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17048</ThreadID>
+<ThreadName>PoolThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1b23221         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12856</ThreadID>
+<ThreadName>PoolThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1b23221         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6588</ThreadID>
+<ThreadName>PoolThread 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1b23221         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18812</ThreadID>
+<ThreadName>PoolThread 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1b23221         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6304</ThreadID>
+<ThreadName>PoolThread 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1b23221         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26476</ThreadID>
+<ThreadName>PoolThread 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1b23221         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4508</ThreadID>
+<ThreadName>PoolThread 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1b23221         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19204</ThreadID>
+<ThreadName>PoolThread 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1b23221         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30936</ThreadID>
+<ThreadName>PoolThread 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1b23221         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4812</ThreadID>
+<ThreadName>PoolThread 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a37d4           
+KERNELBASE        0x00007ff9ca440000 + 42a4e           
+Notif_Experiment  0x00007ff691ac0000 + 1f56e5b         
+Notif_Experiment  0x00007ff691ac0000 + 1b23221         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29932</ThreadID>
+<ThreadName>PoolThread 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll             0x00007ff9ccac0000 + a3dd4           
+ntdll             0x00007ff9ccac0000 + 5b5c3           
+KERNELBASE        0x00007ff9ca440000 + 4b3a1           
+Notif_Experiment  0x00007ff691ac0000 + 1b234d8         
+Notif_Experiment  0x00007ff691ac0000 + 1f52d9f         
+Notif_Experiment  0x00007ff691ac0000 + 1f492b0         
+KERNEL32          0x00007ff9cb8a0000 + 154e0           
+ntdll             0x00007ff9ccac0000 + 485b            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9292</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>true</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
